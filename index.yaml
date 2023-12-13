@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  satisfactory:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2023-12-13T21:54:10.047693223Z"
+    description: A Helm chart for Kubernetes
+    digest: d937389047b22568af6e58fb11928e09459d5f9007938841eb2e8b416d6a1b87
+    name: satisfactory
+    type: application
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/satisfactory-0.1.1/satisfactory-0.1.1.tgz
+    version: 0.1.1
+generated: "2023-12-13T21:54:10.047874353Z"
