@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   satisfactory:
   - apiVersion: v2
+    appVersion: v1.6.1
+    created: "2023-12-16T15:57:00.277696422Z"
+    description: A Helm chart for deploying a Satisfactory dedicated game server to
+      Kubernetes.
+    digest: 07d1dbe59cadecd3e78965bc24123315869ac09ee5ffe786b5ed0edb2e7a754e
+    name: satisfactory
+    type: application
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/satisfactory-0.1.2/satisfactory-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: dev
     created: "2023-12-13T21:54:10.047693223Z"
     description: A Helm chart for Kubernetes
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/satisfactory-0.1.1/satisfactory-0.1.1.tgz
     version: 0.1.1
-generated: "2023-12-13T21:54:10.047874353Z"
+generated: "2023-12-16T15:57:00.277709597Z"
