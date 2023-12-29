@@ -3,6 +3,38 @@ entries:
   dependency-track:
   - apiVersion: v2
     appVersion: 4.10.0
+    created: "2023-12-29T21:21:14.835428629Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.x.x
+    description: 'Dependency-Track is an intelligent Software Supply Chain Component
+      Analysis platform that allows organizations to identify and reduce risk from
+      the use of third-party and open source components. Dependency-Track takes a
+      unique and highly beneficial approach by leveraging the capabilities of Software
+      Bill-of-Materials (SBOM). This approach provides capabilities that traditional
+      Software Composition Analysis (SCA) solutions cannot achieve. '
+    digest: 20602887626dbff7c1b56767ef501e0cfeb9e8a319a6d227bcbe10d934b3a0c8
+    home: https://dependencytrack.org/
+    icon: https://raw.githubusercontent.com/DependencyTrack/dependency-track/master/docs/images/dt-logo.svg
+    keywords:
+    - security
+    - dependency
+    - dependency-track
+    - OWASP
+    - Supply Chain Component Analysis
+    maintainers:
+    - name: 98jan
+    name: dependency-track
+    sources:
+    - https://docs.dependencytrack.org/
+    - https://github.com/98jan/helm-charts
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/dependency-track-0.0.7/dependency-track-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: 4.10.0
     created: "2023-12-29T20:59:21.579114493Z"
     dependencies:
     - condition: postgresql.enabled
@@ -226,4 +258,4 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/satisfactory-0.1.1/satisfactory-0.1.1.tgz
     version: 0.1.1
-generated: "2023-12-29T20:59:21.579139791Z"
+generated: "2023-12-29T21:21:14.835449318Z"
