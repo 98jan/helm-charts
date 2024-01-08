@@ -322,4 +322,15 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/satisfactory-0.1.1/satisfactory-0.1.1.tgz
     version: 0.1.1
-generated: "2023-12-30T14:33:14.109240565Z"
+  smalland:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2024-01-08T22:43:52.439223454Z"
+    description: A Helm chart for deploying Smalland to Kubernetes
+    digest: 2bc4ba44f10d76078eaaa2257e293a535655a0aea48c58e9a832f949e2243456
+    name: smalland
+    type: application
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/smalland-0.0.1/smalland-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-01-08T22:43:52.439255915Z"
