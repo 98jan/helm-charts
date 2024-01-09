@@ -289,6 +289,17 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/dependency-track-0.0.1/dependency-track-0.0.1.tgz
     version: 0.0.1
+  go-application:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2024-01-09T14:05:56.479128508Z"
+    description: A Helm chart for Kubernetes
+    digest: 1d0e2a591a05cc37e993972a984bf31da8b7372a5d5cf33571bd2d670f57893a
+    name: go-application
+    type: application
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/go-application-0.0.1/go-application-0.0.1.tgz
+    version: 0.0.1
   satisfactory:
   - apiVersion: v2
     appVersion: v1.6.1
@@ -343,4 +354,4 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/smalland-0.0.1/smalland-0.0.1.tgz
     version: 0.0.1
-generated: "2024-01-08T22:54:02.234994408Z"
+generated: "2024-01-09T14:05:56.47916205Z"
