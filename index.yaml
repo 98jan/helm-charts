@@ -292,6 +292,16 @@ entries:
   go-application:
   - apiVersion: v2
     appVersion: dev
+    created: "2024-01-09T15:22:45.869686474Z"
+    description: A Helm chart for Kubernetes
+    digest: e9d7bd9c3b10a5a05e36e665be2dfc21134785334338f543131dc849b4261e80
+    name: go-application
+    type: application
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/go-application-0.0.2/go-application-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: dev
     created: "2024-01-09T14:05:56.479128508Z"
     description: A Helm chart for Kubernetes
     digest: 1d0e2a591a05cc37e993972a984bf31da8b7372a5d5cf33571bd2d670f57893a
@@ -354,4 +364,4 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/smalland-0.0.1/smalland-0.0.1.tgz
     version: 0.0.1
-generated: "2024-01-09T14:05:56.47916205Z"
+generated: "2024-01-09T15:22:45.869766999Z"
