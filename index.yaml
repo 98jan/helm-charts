@@ -346,6 +346,16 @@ entries:
   smalland:
   - apiVersion: v2
     appVersion: dev
+    created: "2024-01-14T21:35:56.132001949Z"
+    description: A Helm chart for deploying Smalland to Kubernetes
+    digest: 7b17d9e7dfc5bbdd5063361dfd6197425942029ff7c46c85614e89c933e14a57
+    name: smalland
+    type: application
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/smalland-0.0.4/smalland-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: dev
     created: "2024-01-14T21:29:55.31701221Z"
     description: A Helm chart for deploying Smalland to Kubernetes
     digest: 8f886810d2dbd14d601e9d176b31d3cca0cae0fb0feec7fe4de767ba6e0a5460
@@ -374,4 +384,4 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/smalland-0.0.1/smalland-0.0.1.tgz
     version: 0.0.1
-generated: "2024-01-14T21:29:55.317037587Z"
+generated: "2024-01-14T21:35:56.132052372Z"
