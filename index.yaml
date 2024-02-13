@@ -394,4 +394,15 @@ entries:
     urls:
     - https://github.com/98jan/helm-charts/releases/download/smalland-0.0.1/smalland-0.0.1.tgz
     version: 0.0.1
-generated: "2024-01-14T21:48:43.745613883Z"
+  yuzu-multiplayer-server:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-13T14:28:04.989496493Z"
+    description: A Helm chart for deploying yuzu-dedicated-server to Kubernetes
+    digest: 0517d732209a827314966133ddd68fc5f97e5536b8f8c2bc02e1844d48c7c0c7
+    name: yuzu-multiplayer-server
+    type: application
+    urls:
+    - https://github.com/98jan/helm-charts/releases/download/yuzu-multiplayer-server-0.0.1/yuzu-multiplayer-server-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-02-13T14:28:04.989536221Z"
