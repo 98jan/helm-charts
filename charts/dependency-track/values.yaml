@@ -111,7 +111,7 @@ apiserver:
   replicaCount: 1
   image:
     repository: dependencytrack/apiserver
-    tag: 4.10.1
+    tag: 4.13.6
     pullPolicy: IfNotPresent
   env: []
   # external secret or configmap can be referenced if needed
